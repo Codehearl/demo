@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA Encryption Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/jsencrypt/bin/jsencrypt.min.js"></script>
+</head>
+<body>
+    <h2>RSA Encryption with Public Key</h2>
+    <label for="dataToEncrypt">Enter Data to Encrypt:</label><br>
+    <input type="text" id="dataToEncrypt" name="dataToEncrypt"><br>
+    <button onclick="encryptData()">Encrypt</button>
+    <p>Encrypted Data:</p>
+    <textarea id="encryptedData" rows="5" cols="50"></textarea>
+
+    <!-- Decryption Section -->
+    <h2>RSA Decryption with Private Key</h2>
+    <label for="dataToDecrypt">Enter Data to Decrypt:</label><br>
+    <input type="text" id="dataToDecrypt" name="dataToDecrypt"><br>
+    <button onclick="decryptData()">Decrypt</button>
+    <p>Decrypted Data:</p>
+    <textarea id="decryptedData" rows="5" cols="50"></textarea>
+
+    <script>
+        function encryptData() {
+            var encrypt = new JSEncrypt();
+            var publicKey = `-----BEGIN PUBLIC KEY-----
+    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApKstqoCXo9rjZ5yU5XRK
+    frOqtLmtXDA1rSXhrHauuAwG+mlXT2dXlweH55WG2ypAwf2B7PkG0w2fjHorzUFs
+    roapyzMzg2YxC/9MvCpzwpmfDlPzfPgublqC4PYT8Kait1cwIwx83DOROsAJwPk/
+    3UeVbITCqdGqkK5eeFFDDaLSMgTCwU/sapiRu7mv1WziM/N9D81GQ/0QFQx9TosR
+    YXjgC4jKXNMk5Sm3lRFCljGI8X6erc0WMDG7lYUJZVPrrzItDR4RGNxwdTIS+pko
+    w6tPG7TJuJMb57gzMQMk8vCSk8FA7e2fcE8rgVqLTd+NwvGHeJbX6E1Og/UBc/fe
+    yQIDAQAB
+    -----END PUBLIC KEY-----`;
+            encrypt.setPublicKey(publicKey);
+    
+            var dataToEncrypt = document.getElementById("dataToEncrypt").value;
+            var encrypted = encrypt.encrypt(dataToEncrypt);
+    
+            document.getElementById("encryptedData").value = encrypted;
+        }
+
+        function decryptData() {
+            var dataToDecrypt = document.getElementById("dataToDecrypt").value;
+            fetch('/decrypt', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ encryptedData: dataToDecrypt }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("decryptedData").value = data.decrypted;
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>
