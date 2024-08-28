@@ -77,10 +77,10 @@ Passionate and ambitious Software Engineer with 6 months of professional experie
 *University of Lagos, Nigeria*  
 *Graduation: Aug 2025*
 *CGPA: 4.0/5.0*
-
-- Relevant Coursework: Software Engineering, Web Development, Data Structures and Algorithms, Database Systems, Concurrent programming 
+- Relevant Coursework: Software Engineering, Web Development, Data Structures and Algorithms, Database Systems, Concurrent programming
+  
 **Associate Android Developer**
-*Google Africa Developer Scholarship*  
+* Google Africa Developer Scholarship *  
 *Graduation: Mar 2022*
 ---
 
