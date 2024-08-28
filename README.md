@@ -3,7 +3,7 @@
 - Phone: +2347014939172
 - Email: sabrewithaq@gmail.com
 - LinkedIn: https://www.linkedin.com/in/adeyemi-sanusi
-- GitHub: https://www.linkedin.com/in/adeyemi-sanusi
+- GitHub: https://github.com/Codehearl
 
 ---
 
@@ -32,7 +32,7 @@ Passionate and ambitious Software Engineer with 6 months of professional experie
 
 **Software Engineering Intern (Java)**
 *Leadway Pensure PFA, Lagos*  
-*Apr 2024 – October 2024*
+*Apr 2024 – present
 
 - Assisted in the development and maintenance of web applications using Java.
 - Participated in the full software development lifecycle, including requirements gathering, design, coding, testing, and deployment.
@@ -53,32 +53,44 @@ Passionate and ambitious Software Engineer with 6 months of professional experie
 #### **Technical Skills**
 
 - **Programming Languages:** Dart, Java, JavaScript, kotlin
-- **Frameworks & Libraries:** Flutter, Spring Boot, J2EE,
-- **Tools & Technologies:** Git, Docker, Jenkins
+- **Frameworks & Libraries:** Flutter, Spring Boot, J2EE, Vue Js, JetPack Compose
+- **Tools & Technologies:** Git, 
 - **Databases:** MySQL, MongoDB
 - **Others:** Agile methodologies, RESTful APIs, Unit Testing
+  
+**Soft Skills**
+
+- **Communication:** Articulate and persuasive communicator with the ability to convey complex information clearly and effectively, both verbally and in writing.
+- **Team Collaboration:** Proven team player with experience in working effectively with diverse groups to achieve common goals.
+- **Problem-Solving:** Adept at analyzing issues and developing innovative solutions to address challenges and improve processes.
+- **Adaptability:** Flexible and open to new ideas, with the ability to adjust quickly to changing circumstances and priorities.
+- **Time Management:** Skilled in prioritizing tasks and managing time efficiently to meet deadlines and achieve objectives.
+- **Leadership:** Experienced in leading teams and projects, with a focus on motivating and guiding team members to success.
+- **Conflict Resolution:** Proficient in addressing and resolving conflicts constructively, maintaining a positive and productive work environment.
+- **Creativity:** Creative thinker with a knack for generating novel ideas and approaches to enhance project outcomes.
 
 ---
 
 #### **Education**
 
 **Bachelor of Science in Computer Science**
-*University of [Your University], [City]*  
-*Graduation: Dec 2025*
+*University of Lagos, Nigeria*  
+*Graduation: Aug 2025*
+*CGPA: 4.0/5.0*
 
 - Relevant Coursework: Software Engineering, Web Development, Data Structures and Algorithms, Database Systems, Concurrent programming 
-
+**Associate Android Developer**
+*Google Africa Developer Scholarship*  
+*Graduation: Mar 2022*
 ---
 
 #### **Projects**
 
-**Personal Finance App**
-- Developed a mobile application using Flutter to help users manage their personal finances, track expenses, and create budgets.
-- Implemented features such as transaction categorization, budget tracking, and financial reports.
-
-**E-commerce Platform**
-- Contributed to the development of an e-commerce platform during my internship, focusing on backend development using Java and Spring Boot.
-- Integrated payment gateways and ensured secure transactions.
+**Finance Budget Mobile App**  
+- Developed a user-friendly finance budgeting app using Flutter and GetX, emphasizing a seamless user experience. The app features intuitive navigation, real-time data updates, and efficient state management to help users easily track and manage their finances. 
+ 
+**Search Engine**
+- Designed and implemented a high-efficiency local search engine in C# that leverages an inverted index for rapid data retrieval. The engine employs TF-IDF (Term Frequency-Inverse Document Frequency) to rank search results based on relevance, ensuring that the most pertinent documents are prioritized. Implemented keyword tokenization and stemming to enhance search accuracy by reducing words to their base forms. Optimized the system to achieve a lightning-fast query time of less than 0.01 seconds, ensuring a seamless user experience. This project demonstrates strong skills in data structures, algorithms, and performance optimization.
 
 
 
@@ -87,6 +99,8 @@ Passionate and ambitious Software Engineer with 6 months of professional experie
 #### **Professional Affiliations**
 
 - Member, Google developer student community Gdsc unilag
+
+- Member, Andela Learning Community.
 
 ---
 
