@@ -4,7 +4,7 @@
 ---
 
 ### **Objective**  
-Enthusiastic and results-driven Computer Science student at the University of Lagos, graduating in 2026, seeking to contribute as a Forward Deployed Software Engineer Intern at Palantir. Passionate about leveraging large-scale data and technical expertise to solve real-world challenges and deliver impactful solutions.
+Enthusiastic and results-driven Computer Science student at the University of Lagos,  graduating in 2026, eager to apply technical skills and problem-solving abilities in a dynamic internship role. Committed to leveraging data and innovative technology to tackle complex challenges and contribute to meaningful projects.
 
 ---
 
